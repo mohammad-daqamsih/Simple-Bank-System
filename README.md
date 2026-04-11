@@ -100,18 +100,18 @@ The system uses text files for storage:
 ## Screenshots
 
 ### Login Screen
-![Login Screen](screenshots/Screenshot 2026-04-11 180935.png)
+![Login Screen](screenshots/login.png)
 
 ### Main Menu
-![Main Menu](screenshots/Screenshot 2026-04-11 180946.png)
+![Main Menu](screenshots/main-menu.png)
 
 ### Manage Users
-![Manage Users](screenshots/Screenshot 2026-04-11 180955.png)
+![Manage Users](screenshots/manage-users.png)
 
 ### Transfer Screen
-![Transfer Screen](screenshots/Screenshot 2026-04-11 181017.png)
+![Transfer Screen](screenshots/transfer.png)
 
 ### Currency Screen
-![Currency Screen](screenshots/Screenshot 2026-04-11 181049.png)
+![Currency Screen](screenshots/currency.png)
 ## Notes
 This project is part of my learning journey in C++ and OOP, and I am documenting its development step by step.
