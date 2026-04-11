@@ -84,6 +84,12 @@ The system uses text files for storage:
 - Visual Studio
 - Text file storage
 
+## How to Run
+1. Open the project in Visual Studio.
+2. Build the solution.
+3. Run the project.
+4. Make sure the required text files exist in the project directory.
+   
 ## Future Improvements
 - Password hashing
 - Better error handling
