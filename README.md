@@ -1,54 +1,96 @@
-# Bank Management System (C++)
+# Bank Management System - OOP Version
 
-A console-based bank management system written in C++.
-This project focuses on practicing core programming concepts such as file handling, data structures, and menu-driven applications.
+A console-based Bank Management System built with **C++**.
+
+This project started as a simple functional-programming bank system, then was redesigned and refactored into an **Object-Oriented Programming (OOP)** project with a better structure, clearer responsibilities, and additional features.
+
+## Project Evolution
+
+### Old Version
+The old version was built using a more **functional programming** style and focused mainly on:
+- Client management
+- User login
+- Permissions
+- Deposit / Withdraw operations
+- File handling using text files
+
+### New Version
+The new version was redesigned using **OOP** and organized into multiple classes and screens, making the project easier to maintain, extend, and understand.
 
 ## Features
-- Add new clients
-- Update client information
-- Delete clients
-- Search for a client by account number
-- Deposit and withdraw funds
-- Display total balances
-- Persistent data storage using text files
-  
-## Version 2 Update – Authentication & Permissions
 
-This version introduces a basic authentication system and role-based access control.
+### Core Banking Features
+- List clients
+- Add new client
+- Update client
+- Delete client
+- Find client
+- Deposit
+- Withdraw
+- View total balances
 
-### New Additions
-- User login system (`Users.txt`)
-- Role-based permission management
-- Restricted access to specific menu operations
-- Improved program flow with authentication check before system access
+### User Management
+- User login system
+- Manage users
+- Permissions-based access control
 
-This update reflects a transition from a simple CRUD-based system to a more structured, permission-aware system design.
-## Technologies Used
-- C++
-- File I/O (fstream)
-- STL (vector, string)
-- Console-based UI
+### New Features Added in the OOP Version
+- Refactored the project from functional programming to OOP
+- Better project structure using classes
+- Separated screens and responsibilities
+- Added transfer between clients
+- Added transfer log
+- Added login register log
+- Added currency exchange module
+- Added currency calculator
+- Added currency search
+- Added currency rate update
+- Improved input validation
+
+## Project Structure
+
+The project is organized using multiple classes, such as:
+- `clsBankClient`
+- `clsUser`
+- `clsScreen`
+- `clsMainScreen`
+- `clsTransactionScreen`
+- `clsTransferScreen`
+- `clsTransferLogScreen`
+- `clsLoginScreen`
+- `clsLoginRegisterScreen`
+- `clsCurrency`
+- `clsCurrencyExchangeMainScreen`
 
 ## Data Storage
-- Client data is stored in `Clients.txt`
-- User data and roles are stored in `Users.txt`
-- Custom delimiter-based format is used for parsing records
 
-## Purpose
-This project was built as part of my learning journey in C++.
-It aims to strengthen understanding of:
-- Structs and functions
-- Separation of logic
-- File-based data persistence
-- Program flow using menus
+The system uses text files for storage:
+- `Clients.txt`
+- `Users.txt`
+- `TransfersLog.txt`
+- `LoginRegister.txt`
+- `Currencies.txt`
 
-## Notes
-- This is not intended to be a production-ready system.
-- The focus is on learning and applying fundamental C++ concepts.
+## Concepts Practiced
+- Object-Oriented Programming (OOP)
+- File handling
+- Separation of concerns
+- Access control and permissions
+- Console application design
+- Basic system modularity
+
+## Technologies Used
+- C++
+- Visual Studio
+- Text file storage
 
 ## Future Improvements
-- Refactor using Object-Oriented Programming (OOP)
-- Implement password hashing for better security
-- Improve modular structure (separate user & client management)
-- Add transaction history logging
-- Replace file storage with a database system
+- Password hashing
+- Better error handling
+- Database integration
+- GUI version
+- More secure authentication
+- Cleaner folder structure
+
+## Notes
+This project is part of my learning journey in C++ and OOP, and I am documenting its development step by step.
