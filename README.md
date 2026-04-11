@@ -97,6 +97,21 @@ The system uses text files for storage:
 - GUI version
 - More secure authentication
 - Cleaner folder structure
+## Screenshots
 
+### Login Screen
+![Login Screen](screenshots/Screenshot 2026-04-11 180935.png)
+
+### Main Menu
+![Main Menu](screenshots/Screenshot 2026-04-11 180946.png)
+
+### Manage Users
+![Manage Users](screenshots/Screenshot 2026-04-11 180955.png)
+
+### Transfer Screen
+![Transfer Screen](screenshots/Screenshot 2026-04-11 181017.png)
+
+### Currency Screen
+![Currency Screen](screenshots/Screenshot 2026-04-11 181049.png)
 ## Notes
 This project is part of my learning journey in C++ and OOP, and I am documenting its development step by step.
